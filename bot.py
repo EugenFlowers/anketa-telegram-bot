@@ -165,7 +165,7 @@ async def show_result(query, context: ContextTypes.DEFAULT_TYPE):
 
     # Кнопки: сначала "Оформить" (ссылка), ниже — "Пройти ещё раз"
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("ОФОРМИТЬ", url="https://ekapusta.ru")],
+        [InlineKeyboardButton("ОФОРМИТЬ", url="https://t.me/ekapusta_robot/ekapusta")],
         [InlineKeyboardButton("🔄 Пройти ещё раз", callback_data="restart")],
     ])
 
